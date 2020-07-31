@@ -1,8 +1,13 @@
 import React from 'react';
+import ErrorHandler from '../ErrorHandler/ErrorHandler';
 import { trackPromise } from 'react-promise-tracker';
 
 export default class SearchBox extends React.Component {
-    
+    state = {
+        error: ''
+    }
+
+
     handleSubmit = (e) => {
         e.preventDefault();
         const { search, category } = e.target;
@@ -23,6 +28,10 @@ export default class SearchBox extends React.Component {
             }));
     }
 
+    emptyResults = (data) => {
+        return data.results.length === 0;
+    }
+
     render() {
         return (
             <div className="Search-Container">
@@ -38,6 +47,7 @@ export default class SearchBox extends React.Component {
                         <option value="vehicles">Vehicles</option>
                     </select>
                 </form>
+                {/* <ErrorHandler error={this.state.error}/> */}
             </div>
         );
     }

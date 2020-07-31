@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result componenet test renders Result to UI 1`] = `
+<div
+  className="Result-Container"
+>
+  <h2>
+    That Category does not exist!
+  </h2>
+</div>
+`;
+
+exports[`Result componenet test renders Result to UI 2`] = `
+<div
+  className="Result-Container"
+>
+  <h2>
+    Darth
+  </h2>
+  <p>
+    Helmet
+  </p>
+  <p>
+    Space
+  </p>
+</div>
+`;
+
+exports[`Result componenet test renders Result to UI with data 1`] = `
+<div
+  className="Result-Container"
+>
+  <h2>
+    Darth
+  </h2>
+  <p>
+    Helmet
+  </p>
+  <p>
+    Space
+  </p>
+</div>
+`;
+
+exports[`Result componenet test renders Result to UI without data 1`] = `
+<div
+  className="Result-Container"
+>
+  <h2>
+    That Category does not exist!
+  </h2>
+</div>
+`;

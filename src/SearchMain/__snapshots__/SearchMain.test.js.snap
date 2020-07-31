@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchMain Component renders to the UI 1`] = `
+<main
+  className="Search-Main"
+>
+  <div
+    className="Search-Container"
+  >
+    <form
+      className="Search-Form"
+      onSubmit={[Function]}
+    >
+      <input
+        name="search"
+        type="text"
+      />
+      <button
+        type="submit"
+      >
+        Search!
+      </button>
+      <select
+        name="category"
+      >
+        <option
+          value="people"
+        >
+          Characters
+        </option>
+        <option
+          value="species"
+        >
+          Species
+        </option>
+        <option
+          value="films"
+        >
+          Films
+        </option>
+        <option
+          value="planets"
+        >
+          Planets
+        </option>
+        <option
+          value="starships"
+        >
+          Spaceships
+        </option>
+        <option
+          value="vehicles"
+        >
+          Vehicles
+        </option>
+      </select>
+    </form>
+  </div>
+</main>
+`;

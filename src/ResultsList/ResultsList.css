@@ -1,0 +1,13 @@
+.Results-List {
+    padding: 20px;
+    margin: 0 50px;
+}
+
+.Results-Item {
+    background-color: #333;
+    border: 3px dotted #eaca00;
+    border-radius: 25em;
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+}

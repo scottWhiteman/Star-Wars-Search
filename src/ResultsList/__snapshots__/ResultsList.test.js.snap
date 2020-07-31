@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results List Component renders each item result 1`] = `
+<ul
+  className="Results-List"
+>
+  <li
+    className="Results-Item"
+  >
+    <div
+      className="Result-Container"
+    >
+      <h2>
+        That Category does not exist!
+      </h2>
+    </div>
+  </li>
+  <li
+    className="Results-Item"
+  >
+    <div
+      className="Result-Container"
+    >
+      <h2>
+        That Category does not exist!
+      </h2>
+    </div>
+  </li>
+  <li
+    className="Results-Item"
+  >
+    <div
+      className="Result-Container"
+    >
+      <h2>
+        That Category does not exist!
+      </h2>
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`Results List Component renders empty list 1`] = `
+<ul
+  className="Results-List"
+>
+  <h2>
+    No results found!
+  </h2>
+</ul>
+`;
+
+exports[`Results List Component renders without crashing 1`] = `
+<ul
+  className="Results-List"
+>
+  <h2>
+    No results found!
+  </h2>
+</ul>
+`;
